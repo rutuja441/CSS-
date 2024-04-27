@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline CSS</title>
+    <title>CSS</title>
+    <style>
+        .text{
+            color: black;
+            background-color:red ;
+        }
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+         .highlight{
+            background-color: yellow;
+         }
+    </style>
 </head>
 <body>
     <h1 style="color:red;background-color:black;font: size 16px;">we are learning Inline CSS.</h1>
     <p style=color:red;background-color:black;font:size16px;>The purpose of this article is to display paragraph elements as inline elements using CSS.</p>
+    <h1 class="text">
+        hello world
+    </h1>
+    <P> this is a paragraph styled using document-level CSS.</P>
+    <P class="highlight">This paragraph has a special class.</P>
 </body>
 </html>
